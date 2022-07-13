@@ -24,6 +24,9 @@ export const Paragrafos = styled.p`
   width: 120vh;
   height: 12.5vh;
 `;
+
+//Styled Modal Saneamento
+
 export const BSaneamento = styled.button`
 background-color: #47658f;
 color: #FFFFFF;
@@ -32,12 +35,10 @@ border: none;
 width: 12vh;
 height: 2.7vh;
 `
-//Styled Modal
-
 export const BoxModal = styled.section`
 position: absolute;
 background-color: #47658f;
-color: white;
+color: #ffffff;
 width: 140vh;
 height: 80vh;
 display: flex;
@@ -67,6 +68,57 @@ text-indent: 4vh;
 `
 export const A = styled.a`
 color: #FFFFFF;
+font-size: 2vh;
+font-weight: bold;
+font-style: italic;
+`
+
+//Styled Modal Moradia
+
+export const BMoradia = styled.button`
+background-color: #FAE30D;
+color: #000000;
+cursor: pointer;
+border: none;
+width: 12vh;
+height: 2.7vh;
+`
+export const MoradiaBox = styled.section`
+position: absolute;
+background-color: #FAE30D;
+color: #000000;
+width: 140vh;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+`
+
+
+//Styled Modal DevVerde
+
+export const BVerde = styled.button`
+background-color: #2DCB13;
+color: #FFFFFF;
+cursor: pointer;
+border: none;
+width: 12vh;
+height: 2.7vh;
+`
+export const ModalBox = styled.section`
+position: absolute;
+background-color: #2DCB13;
+color: #000000;
+width: 140vh;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+`
+export const AVerde = styled.a`
+color: #000000;
 font-size: 2vh;
 font-weight: bold;
 font-style: italic;
