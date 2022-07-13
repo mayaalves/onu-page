@@ -10,10 +10,10 @@ import Coleta from "./Pages/Coleta";
 
 const GlobalStyle = createGlobalStyle`
 *{
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }`;
 const Navegação = styled(Link)`
   color: #000000;
