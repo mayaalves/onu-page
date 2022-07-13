@@ -123,3 +123,25 @@ font-size: 2vh;
 font-weight: bold;
 font-style: italic;
 `
+
+//Styled Modal Coleta
+
+export const BColeta = styled.button`
+background-color: #f6701c;
+color: #000000;
+cursor: pointer;
+border: none;
+width: 12vh;
+height: 2.7vh;
+`
+export const BoxColeta = styled.section`
+position: absolute;
+background-color: #f6701c;
+color: #000000;
+width: 140vh;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+`

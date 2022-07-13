@@ -27,7 +27,6 @@ export default function Moradia() {
     )
   }
 
-
   return (
     <S.Container>
       <S.Banner src={Banner} alt="" />
