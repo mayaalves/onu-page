@@ -30,6 +30,9 @@ export default function Coleta() {
   return (
     <S.Container>
       <S.Banner src={Banner} alt="" />
+      <S.BoxBotão>
+      <S.BColeta onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BColeta>{modal && SaibaMais()}
+        </S.BoxBotão>
       <S.Titulo>
         Problema antigo, as soluções não são simples e envolvem vontade de poder
         publico e população.{" "}
@@ -50,7 +53,6 @@ export default function Coleta() {
         1.2-Campanhas de educação pra minimizar a produção de lixo, também para
         a importancia da coleta seletiva e da reciclagem de materiais.
       </S.Paragrafos>
-      <S.BColeta onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BColeta>{modal && SaibaMais()}
       <S.Paragrafos>
         1.3-Financiamento publico para uso e instalação de trituradores de
         organicos nas pias de cozinha, redirecionando pra um container que

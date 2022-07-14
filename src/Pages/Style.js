@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  height: 180vh;
+  height: 160vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -10,19 +10,24 @@ export const Container = styled.section`
 export const Banner = styled.img`
   height: 60vh;
 `;
+export const BoxBotão = styled.div`
+width: 120vh;
+display: flex;
+justify-content: flex-end;
+`
 export const Titulo = styled.h2`
   width: 120vh;
   text-indent: 4vh;
-  height: 14vh;
+  height: 12vh;
 `;
 export const SubTitulo = styled.h3`
   width: 120vh;
   text-indent: 4vh;
-  height: 23.5vh;
+  height: 16vh;
 `;
 export const Paragrafos = styled.p`
   width: 120vh;
-  height: 12.5vh;
+  height: 10vh;
 `;
 
 //Styled Modal Saneamento

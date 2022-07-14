@@ -30,12 +30,14 @@ export default function Moradia() {
   return (
     <S.Container>
       <S.Banner src={Banner} alt="" />
-      <S.Titulo></S.Titulo>
-      <S.SubTitulo></S.SubTitulo>
+      <S.BoxBotão>
+      <S.BMoradia onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BMoradia>{modal && SaibaMais()}
+      </S.BoxBotão>
+      <S.Titulo>As sub-moradias são ainda uma realidade muito comum na Maré, ordenar o crescimente, transformaria toda a realidade da área. </S.Titulo>
+      <S.SubTitulo>A Maré que iniciou seu crescimento em sub-moradias em cima de palafitas sofre ainda hoje os reflexos disso. </S.SubTitulo>
       <S.Paragrafos>1.1-</S.Paragrafos>
       <S.Paragrafos>1.2-</S.Paragrafos>
       <S.Paragrafos>1.3-</S.Paragrafos>
-      <S.BMoradia onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BMoradia>{modal && SaibaMais()}
       <S.Paragrafos>1.4-</S.Paragrafos>
     </S.Container>
   );

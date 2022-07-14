@@ -55,7 +55,7 @@ Todos os rios que vão aparecer ali nessas sub-bacias são afluentes desses rios
         1.3- Criação de um aplicativo para denuncia e informações sobre os rios,
         esgoto e saneamento, assim como para mapeamento de novas construções{" "}
       </S.Paragrafos>
-      <S.Paragrafos>1.4-</S.Paragrafos>
+      <S.Paragrafos>1.4- Universalizar o acesso aos banheiros com sistema de água e esgoto totalmente completos e funcionais e a produtos de higiene pessoal, especialmente mulheres em situação de vunerabilidade.</S.Paragrafos>
     </S.Container>
   );
 }
