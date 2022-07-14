@@ -34,7 +34,7 @@ export default function App() {
       <S.BoxDialogo>
         <h1>Problemas e soluções na Mare</h1>
         <S.P>
-          A Maré é uma favela localizada na zona norte do Rioo de janeiro, com
+          A Maré é uma favela localizada na zona norte do Rio de janeiro, com
           aproximadamente 150 mil moradores, tem mais habitantes do que 93% das
           cidades Brasileiras. A 20 minutos do centro, rodeada pelas três
           principais vias expressas, ao lado do Aeroporto internacional e de uma

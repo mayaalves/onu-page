@@ -31,6 +31,9 @@ Todos os rios que vão aparecer ali nessas sub-bacias são afluentes desses rios
   return (
     <S.Container>
       <S.Banner src={Banner} alt="" />
+      <S.BoxBotão>
+      <S.BSaneamento onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BSaneamento>{modal && SaibaMais()}
+        </S.BoxBotão>
       <S.Titulo>
         Uma questão para todas as nações sub-desenvolvidas. Suas soluções estão
         diretamente ligadas ao desenvolvimento social.
@@ -50,7 +53,6 @@ Todos os rios que vão aparecer ali nessas sub-bacias são afluentes desses rios
         esgoto da região pra uma estação de tratamento, parando assim com o
         despejo nos rios.
       </S.Paragrafos>
-      <S.BSaneamento onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BSaneamento>{modal && SaibaMais()}
       <S.Paragrafos>
         1.3- Criação de um aplicativo para denuncia e informações sobre os rios,
         esgoto e saneamento, assim como para mapeamento de novas construções{" "}

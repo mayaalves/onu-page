@@ -35,6 +35,9 @@ Andando pelo Parque não se ver qualquer vestígio do poder público, até as li
   return (
     <S.Container>
       <S.Banner src={Banner} alt="" />
+      <S.BoxBotão>
+      <S.BVerde onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BVerde>{modal && SaibaMais()}
+        </S.BoxBotão>
       <S.Titulo>
         A falta de espaços verdes é um problema recorrente em todas as
         metrôpoles Brasileiras, na Maré não poderia ser diferente.
@@ -47,7 +50,6 @@ Andando pelo Parque não se ver qualquer vestígio do poder público, até as li
         1.1- Programas de ampliação, preversação e conservação da mata nativa do Parque
         ecologico da Vila do Pinheiro(Mata dos macacos), além de seus outros instrumentos como o anfiteatro e o campo de futebol.
       </S.Paragrafos>
-      <S.BVerde onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BVerde>{modal && SaibaMais()}
       <S.Paragrafos>1.2- Mapeamento de áreas para plantio de arvorés, além de ampliação e criação de parques e praças publicas, onde haveriam areas de horta e estufas administradas pelos moradores </S.Paragrafos>
       <S.Paragrafos>1.3- Re-urbanização das areas amplas e ruas largas, aumentando a calçada e fazendo o plantio de arvores já desenvolvidas, dimunuindo assim o trabalho e o cuidado da população e do poder publico.</S.Paragrafos>
       <S.Paragrafos>1.4- Criação com financiamento publico ou privado de hortas construidas nas lajes das casas, administradas pelos proprios donos dos imoveis, pra venda dos insumos produzidos atraves de coletivos  </S.Paragrafos>

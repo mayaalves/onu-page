@@ -37,12 +37,10 @@ export default function Coleta() {
         Problema antigo, as soluções não são simples e envolvem vontade de poder
         publico e população.{" "}
       </S.Titulo>
-      <S.SubTitulo>
-        A coleta de lixo sempre foi um grande problema na Maré. Questões como o
+      <S.SubTitulo>Questões como o
         crescimento desordenado, a geografia e a violência, impedem que empresas
-        de coleta seletiva atuem na area, até mesmo a conlurb(empresa publica de
-        limpeza urbana) tem dificuldade de atuar plenamente na localidade. Com
-        isso em mente, a de se entender, que as soluções não são simples.
+        de coleta seletiva atuem na area, até mesmo a conlurb, tem dificuldade de atuar plenamente na localidade. Com
+        isso, é de se entender, que as soluções não são simples.
       </S.SubTitulo>
       <S.Paragrafos>
         1.1- Uso de tecnologia pra mapear o tipo de lixo produzido por moradores

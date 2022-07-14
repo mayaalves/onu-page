@@ -39,6 +39,10 @@ cursor: pointer;
 border: none;
 width: 12vh;
 height: 2.7vh;
+transition: all 1.9s;
+&:hover{
+  transform: scale(1.5);
+}
 `
 export const BoxModal = styled.section`
 position: absolute;
@@ -87,6 +91,10 @@ cursor: pointer;
 border: none;
 width: 12vh;
 height: 2.7vh;
+transition: all 1.9s;
+&:hover{
+  transform: scale(1.5);
+}
 `
 export const MoradiaBox = styled.section`
 position: absolute;
@@ -110,6 +118,10 @@ cursor: pointer;
 border: none;
 width: 12vh;
 height: 2.7vh;
+transition: all 1.9s;
+&:hover{
+  transform: scale(1.5);
+}
 `
 export const ModalBox = styled.section`
 position: absolute;
@@ -138,6 +150,10 @@ cursor: pointer;
 border: none;
 width: 12vh;
 height: 2.7vh;
+transition: all 1.9s;
+&:hover{
+  transform: scale(1.5);
+}
 `
 export const BoxColeta = styled.section`
 position: absolute;
