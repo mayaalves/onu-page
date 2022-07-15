@@ -34,11 +34,11 @@ export default function Moradia() {
       <S.BMoradia onClick={() =>{handleChange()}}>{modal ? 'Sair' : 'Saiba mais'  }</S.BMoradia>{modal && SaibaMais()}
       </S.BoxBotão>
       <S.Titulo>As sub-moradias são ainda uma realidade muito comum na Maré, ordenar o crescimente, transformaria toda a realidade da área. </S.Titulo>
-      <S.SubTitulo>A Maré, que iniciou seu crescimento em sub-moradias em cima de palafitas, sobre o mangue, as margens da baia de guanabara, sofre ainda hoje os reflexos disso, que são visiveis e palpaveis na maneira com a população vive e mora. </S.SubTitulo>
+      <S.SubTitulo>A Maré, que iniciou seu crescimento em sub-moradias em cima de palafitas, sobre o mangue, as margens da baia de guanabara, sofre ainda hoje os reflexos disso, que são visiveis e palpáveis na maneira com a população vive e mora. </S.SubTitulo>
       <S.Paragrafos>1.1- Mapeamento de Informações de moradia e da população para alinhamento das necessidades das famílias com os espacos oferecidos. </S.Paragrafos>
-      <S.Paragrafos>1.2- Criação de nucleos onde estudantes e profissionais de arquitetura e enguenharia possam ajudar os moradores em reformas de suas casas. </S.Paragrafos>
-      <S.Paragrafos>1.3- incentivo ao crescimento horizontal ordenado, ao oferecimento de valores justos e alinhados as necessidades e demandas da população. </S.Paragrafos>
-      <S.Paragrafos>1.4- Construção de um amplo esquema de drenagem das casas e quintais que mitigue os grandres problemas de umidade, muito comum na grande maioria das casas, por ser uma area de aterramento. </S.Paragrafos>
+      <S.Paragrafos>1.2- Criação de núcleos onde estudantes e profissionais de arquitetura e engenharia possam ajudar os moradores em reformas e reestruturação de suas casas. </S.Paragrafos>
+      <S.Paragrafos>1.3- incentivo ao crescimento horizontal ordenado, meticulosamente pensado e em conformidade com valores justos e alinhados as necessidades e demandas da população. </S.Paragrafos>
+      <S.Paragrafos>1.4- Construção de um amplo esquema de drenagem das casas, quintais e ruas que mitiguem os grandres problemas de umidade, muito comum na grande maioria dos imóveis, por ser uma area de aterramento. </S.Paragrafos>
     </S.Container>
   );
 }

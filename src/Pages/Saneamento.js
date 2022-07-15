@@ -42,20 +42,20 @@ Todos os rios que vão aparecer ali nessas sub-bacias são afluentes desses rios
         Segundo a OMS cada 1 dolar investido em saneamento básico, economiza-se
         4,3 dólares em saúde global. As soluções não são simples e envolvem
         diversos niveís de infra-estrutura, aqui vão algumas soluções de pequeno
-        e medio prazo.
+        e médio prazo.
       </S.SubTitulo>
       <S.Paragrafos>
         1.1- Amplas e diversificadas campanhas de educação que envolvam toda a
-        população da Maré para importancia da preservação e limpeza dos rios{" "}
+        população da Maré para importância da preservação e limpeza dos rios{" "}
       </S.Paragrafos>
       <S.Paragrafos>
-        1.2- Dragagem e limpeza dos diversos rios da região. Redirecionar todo o
+        1.2- Dragagem e limpeza dos diversos rios da região. Redirecionamento de todo o
         esgoto da região pra uma estação de tratamento, parando assim com o
         despejo nos rios.
       </S.Paragrafos>
       <S.Paragrafos>
-        1.3- Criação de um aplicativo para denuncia e informações sobre os rios,
-        esgoto e saneamento, assim como para mapeamento de novas construções{" "}
+        1.3- Criação de um aplicativo para denúncia e informações sobre os rios,
+        esgoto e saneamento, assim como para mapeamento de novas construções.{" "}
       </S.Paragrafos>
       <S.Paragrafos>1.4- Universalizar o acesso aos banheiros com sistema de água e esgoto totalmente completos e funcionais e a produtos de higiene pessoal, especialmente mulheres em situação de vunerabilidade.</S.Paragrafos>
     </S.Container>

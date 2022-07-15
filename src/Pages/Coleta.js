@@ -35,7 +35,7 @@ export default function Coleta() {
         </S.BoxBotão>
       <S.Titulo>
         Problema antigo, as soluções não são simples e envolvem vontade de poder
-        publico e população.{" "}
+        público e população.{" "}
       </S.Titulo>
       <S.SubTitulo>Questões como o
         crescimento desordenado, a geografia e a violência, impedem que empresas
@@ -45,15 +45,15 @@ export default function Coleta() {
       <S.Paragrafos>
         1.1- Uso de tecnologia pra mapear o tipo de lixo produzido por moradores
         e comerciantes da Maré, e assim criar soluções para reciclagem
-        inteligente de materiais
+        inteligente de materiais.
       </S.Paragrafos>
       <S.Paragrafos>
         1.2-Campanhas de educação pra minimizar a produção de lixo, também para
-        a importancia da coleta seletiva e da reciclagem de materiais.
+        a importância da coleta seletiva e da reciclagem de materiais.
       </S.Paragrafos>
       <S.Paragrafos>
-        1.3-Financiamento publico para uso e instalação de trituradores de
-        organicos nas pias de cozinha, redirecionando pra um container que
+        1.3-Financiamento público para uso e instalação de trituradores de
+        orgânicos nas pias de cozinha, redirecionando pra um container(ou estação de coleta) que
         produzirá abudo, e que será recolhido pela prefeitura.
       </S.Paragrafos>
       <S.Paragrafos>

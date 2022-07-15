@@ -35,12 +35,12 @@ export default function App() {
         <h1>Problemas e soluções na Mare</h1>
         <S.P>
           A Maré é uma favela localizada na zona norte do Rio de janeiro, com
-          aproximadamente 150 mil moradores, tem mais habitantes do que 93% das
+          aproximadamente 130 mil moradores, tem mais habitantes do que 93% das
           cidades Brasileiras. A 20 minutos do centro, rodeada pelas três
           principais vias expressas, ao lado do Aeroporto internacional e de uma
-          das maiores e melhores faculdades da America Latina, ainda assim, uma
-          serie de problemas, causa o baixo IDH da favela, aqui serão
-          desenvolvidas algumas soluçôes para a Maré.
+          das maiores e melhores faculdades da América Latina, ainda assim, uma
+          série de problemas e o descaso do poder público, causam o baixo IDH da favela, aqui serão
+          desenvolvidas algumas soluçôes para a favela.
         </S.P>
       </S.BoxDialogo>
       <Router>
